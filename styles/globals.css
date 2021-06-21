@@ -5,12 +5,109 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
-
-a {
-  color: inherit;
+.main-bg{
+  background: #24292E;
+}
+.w-20{
+  width: 20px;
+}
+.w-17{
+  width: 17px;
+}
+.input {
+  border: 1px solid #535b63;
+  background: transparent;
+  outline: none;
+  padding: 1px 8px;
+  width: 35vw;
+  max-width: 220px;
+  border-radius: 4px;
+  color: #bfbfbf;
+  font-size: 14px;
+}
+.input::placeholder {
+  font-size: 13px;
+  color: #6c747c;
+}
+.color-hov{
+  color: #cfcfcf;
+}
+.color{
+  color: #ececec;
+}
+.icon-hov:hover{
+  color: #cccccc;
+  cursor: pointer;
+}
+.icon-col-bl{
+  color: #474747;
+}
+.leng-col {
+  width: 11px;
+  height: 11px;
+  background: rgb(255, 208, 0);
+  border: 1px solid rgb(180, 180, 180);
+  border-radius: 50%;
+}
+.red{
+  background: red;
+}
+.align-self{
+  align-self: flex-start;
+}
+.bl{
+  background: blue;
+}
+.yellow{
+  background: yellow;
+}
+.w-40{
+  width: 40px;
+}
+.blue{
+  color: rgb(0, 110, 255);
+}
+.repo-title{
+  text-decoration: none;
+  font-weight: 500;
+}
+.repo-title:hover{
+  text-decoration: underline;
+}
+.fs-13{
+  font-size: 13px;
+}
+.fs-18{
+  font-size: 18px;
+}
+.fs-14{
+  font-size: 14px;
+}
+.text-none{
   text-decoration: none;
 }
-
-* {
-  box-sizing: border-box;
+.col-bl{
+  color: rgb(95, 95, 95);
+}
+.pointer{
+  cursor:pointer;
+}
+.grid-temp{
+  grid-template-columns: 1fr 3fr;
+}
+.temp{
+  grid-template-columns: 2fr 2fr;
+}
+.main-content {
+  max-width: 1250px;
+  margin: auto;
+}
+p{
+  margin-bottom: 0;
+}
+.text-clamp-1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
 }
